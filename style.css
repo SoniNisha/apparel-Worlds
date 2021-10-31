@@ -1,0 +1,150 @@
+* {
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+#header {
+    background-color: black;
+    height: 70px;
+    font-size: 22px;
+}
+
+#logo {
+    width: 40%;
+    color:beige;
+    line-height: 70px;
+    float: left;
+}
+
+#menu{
+    width: 60%;
+    float: right;
+    line-height: 70px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: beige;
+}
+
+#main {
+    background-image: linear-gradient(45deg,pink,skyblue,pink);
+    height: auto;
+}
+
+#heading {
+    width: 100%;
+    height: 80vh;
+    background-image: url('https://cdn.pixabay.com/photo/2019/12/28/15/52/christmas-woman-4725015__340.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#brand {
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 25px;
+    padding-bottom: 2px;
+}
+
+#home {
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+h3 {
+    background-image: linear-gradient(50deg,red,purple);
+    border-radius: 50%;
+    width: 350px;
+    line-height: 35px;
+    margin: 20px auto;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.classify {
+    line-height: 35px;
+    margin: 20px auto;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #000;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(41, 41, 41);
+}
+
+p {
+    padding: 15px auto;
+    width: 98%;
+    margin: auto;
+    font-size: 16px;
+}
+
+#contactUs {
+    height: 450px;
+    width: 100%;
+}
+
+td {
+    padding: 20px 50px 0px 50px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+input {
+    height: 22px;
+    width: 180px;
+    font-size: 18px;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+#footer {
+    padding: 20px;
+    background-color: black;
+    color: beige;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container>div>div {
+    height: 300px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+}
